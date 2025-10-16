@@ -100,63 +100,63 @@ const std::map<game::SkillId, game::SkillInfo> game::Data::SkillData = {
         game::SkillId::STEALTH_ATTACK,
         {
         .name = "Stealth attack",
-        .desc = "None"
+        .desc = "+1 dmg when AGI > target's AGI"
         }
     },
     {
         game::SkillId::POISON,
         {
             .name = "Poison",
-            .desc = "None"
+            .desc = "+1 dmg/turn starting on turn 2 (+2 on turn 3, etc.)"
         }
     },
     {
         game::SkillId::DRIVE_ATTACK,
         {
             .name = "Drive attack",
-            .desc = "None"
+            .desc = "x2 weapon dmg on turn 1"
         }
     },
     {
         game::SkillId::SHIELD,
         {
             .name = "Shield",
-            .desc = "None"
+            .desc = "-3 dmg taken (if STR > target's STR)"
         }
     },
     {
         game::SkillId::FURY,
         {
             .name = "Fury",
-            .desc = "None"
+            .desc = "+2 dmg (first 3 turns), then −1 dmg"
         }
     },
     {
         game::SkillId::STONE_SKIN,
         {
             .name = "Stone skin",
-            .desc = "None"
+            .desc = "Reduce dmg taken for VIT stat"
         }
     },
     {
         game::SkillId::WEAK_BLUNT,
         {
             .name = "Weak to blunt",
-            .desc = "None"
+            .desc = "take x2 dmg if target's weapon type is blunt"
         }
     },
     {
         game::SkillId::STRONG_SLASH,
         {
             .name = "Strong to slash",
-            .desc = "None"
+            .desc = "resist to dmg from slash weapons"
         }
     },
     {
         game::SkillId::FIRE_BREATH,
         {
             .name = "Fire breath",
-            .desc = "None"
+            .desc = "+3 dmg to attack every 3 turns"
         }
     }
 };
